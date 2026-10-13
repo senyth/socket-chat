@@ -1,4 +1,4 @@
-# SocketChat
+# Socket Chat App
 
 A real-time chat application with a Material Design-inspired flat layout, built without any UI component libraries. Both the front-end and back-end are written from scratch.
 
@@ -19,22 +19,36 @@ A real-time chat application with a Material Design-inspired flat layout, built 
 
 ## Getting Started
 
-### 1. Start the back-end
+### 1. Clone the repositories
+
+You may visit the repositories below to browse the code, or clone them right away using the commands provided.
+
+- Back-end: [socket-chat-backend](https://github.com/senyth/socket-chat-backend)
+- Front-end: [socket-chat-frontend](https://github.com/senyth/socket-chat-frontend)
 
 ```bash
-cd chat-app-backend
+git clone https://github.com/senyth/socket-chat-backend.git
+git clone https://github.com/senyth/socket-chat-frontend.git
+```
+
+### 2. Start the back end
+
+```bash
+cd socket-chat-backend
 npm install
 npm start
 ```
 
-### 2. Start the front-end
+### 3. Start the front end
+
+Open a new terminal window, then run:
 
 ```bash
-cd chat-app-frontend
+cd socket-chat-frontend
 npm install
 ng serve
 ```
 
-### 3. Open the app
+### 4. Open the app
 
 Open your browser and go to [http://localhost:4200](http://localhost:4200) to start using the application.
